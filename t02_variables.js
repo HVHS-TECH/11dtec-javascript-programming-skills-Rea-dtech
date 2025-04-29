@@ -4,8 +4,9 @@
 let myname = "";
 
 //main code
+setTimeout(function() {
 console.log("my name is " + myname);
-
+}, 10000);
 //functions
 function updateName() {
     const inputElement = document.getElementById("nameInput");
