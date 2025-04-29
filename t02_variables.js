@@ -2,7 +2,7 @@
 
 
 //variables
-let myname = "rea";
+let myname = "";
 
 
 
