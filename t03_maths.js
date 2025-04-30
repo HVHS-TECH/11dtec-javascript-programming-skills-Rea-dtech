@@ -7,4 +7,5 @@ let money ="100";
 let year = "2025";
 //main code
 console.log ("Hi " + name + " as of " + year + " you are " + age + " and you have " + money + " dollars");
+console.log ("you were born in " + " ")
 //functions
