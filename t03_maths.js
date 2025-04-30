@@ -11,4 +11,6 @@ console.log ("you were born in ");
 console.log (year - age);
 console.log (" in 10 years you will be " );
 console.log (15 + 10)
+console.log ("you have ")
+console.log (money)
 //functions
