@@ -1,9 +1,10 @@
 /*
-loops  by rea 8/5/25 
+LOOPS by rea 8/5/25 
 the purpose of this code is to learn js on it
 */
 
 //variables
+/*
 let name = prompt ('what is your name?');
 let age = prompt ('what is your age?');
 let money = prompt ('how much money do you have?');
