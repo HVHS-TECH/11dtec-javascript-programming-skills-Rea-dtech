@@ -29,12 +29,13 @@ if (money > 4   ) {
         "you can afford to buy a chocolate bar");
 }
 // loop
+let userNumber = parseInt(prompt("Enter a number to add to the total:"));
 let total = 0;
-for (let i = 0; i < 10; i++
-) { 
-    total += i;
-    console.log('looping', i, total);
+for (let i = 0; i < 10; i++) { 
+    total += i + userNumber;
+    console.log('looping', i, 'current total:', total);
 }
+alert("Final total with your number added each time: " + total);
 
 //was fixing this
 
