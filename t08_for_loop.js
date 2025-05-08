@@ -29,12 +29,13 @@ if (money > 4   ) {
         "you can afford to buy a chocolate bar");
 }
 // loop
-console.log('starting loop');
 let total = 0;
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++
+) { 
     total += i;
     console.log('looping', i, total);
 }
+
 //was fixing this
 
 alert ("some languges are: " + array);
