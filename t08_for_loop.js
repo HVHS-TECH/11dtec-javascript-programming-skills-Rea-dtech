@@ -1,4 +1,4 @@
-//loopss  by rea 1/4/25 the purpose of this code is to learn js on it
+//loops  by rea 1/4/25 the purpose of this code is to learn js on it
 
 //variables
 let name = prompt ('what is your name?');
