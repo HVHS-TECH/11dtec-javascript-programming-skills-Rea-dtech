@@ -1,5 +1,5 @@
 /*
-loops  by rea 1/4/25 
+loops  by rea 8/5/25 
 the purpose of this code is to learn js on it
 */
 
@@ -35,7 +35,7 @@ if (money > 4   ) {
 // loop
 let userNumber = parseInt(prompt("Enter a number to add to the total:"));
 let total = 0;
-for (let i = 0; i < 10; i++) { 
+for (let i = 0; i < 6; i++) { 
     total += i + userNumber;
     console.log('looping', i, 'current total:', total);
 }
