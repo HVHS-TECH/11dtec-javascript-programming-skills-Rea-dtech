@@ -1,4 +1,7 @@
-//loops  by rea 1/4/25 the purpose of this code is to learn js on it
+/*
+loops  by rea 1/4/25 
+the purpose of this code is to learn js on it
+*/
 
 //variables
 let name = prompt ('what is your name?');
@@ -12,7 +15,7 @@ let specificDate = new Date(2025, 4, 1, 10, 30, 0);
 console.log(specificDate);
 
 //main code
-alert(
+/*alert(
     "Arrays by Rea 1/4/25\n" +
     "The purpose of this code is to learn JS\n" +
     "Time: " + specificDate + "\n" +
@@ -28,6 +31,7 @@ if (money > 4   ) {
          "your pocket money is " + money + "\n" +
         "you can afford to buy a chocolate bar");
 }
+        */
 // loop
 let userNumber = parseInt(prompt("Enter a number to add to the total:"));
 let total = 0;
