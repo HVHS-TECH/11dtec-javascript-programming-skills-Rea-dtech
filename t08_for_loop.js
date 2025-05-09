@@ -34,14 +34,16 @@ if (money > 4   ) {
 }
         */
 // loop
-// bug in this loop[]
-let userNumber = parseInt(prompt("Enter a number to add to the total:"));
 let total = 0;
+
+// Loop 6 times, asking for a number each time
 for (let i = 0; i < 6; i++) { 
-    total += i + userNumber;
-    console.log('looping', i, 'current total:', total);
+    let userNumber = parseInt(prompt("Enter number " + (i + 1) + " of 6:"));
+    total += userNumber;  // Add the number to total
+    console.log('Number entered:', userNumber, 'Current total:', total);
 }
-alert("Final total with your number added each time: " + total);
+
+alert("Final total of all numbers: " + total);
 
 //was fixing this
 
