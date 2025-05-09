@@ -36,10 +36,9 @@ if (money > 4   ) {
 // loop
 let total = 0;
 
-// Loop 6 times, asking for a number each time
 for (let i = 0; i < 6; i++) { 
     let userNumber = parseInt(prompt("Enter number " + (i + 1) + " of 6:"));
-    total += userNumber;  // Add the number to total
+    total += userNumber;  
     console.log('Number entered:', userNumber, 'Current total:', total);
 }
 
