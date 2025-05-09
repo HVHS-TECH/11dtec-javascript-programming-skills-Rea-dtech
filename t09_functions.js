@@ -33,6 +33,8 @@ if (money > 4   ) {
         "you can afford to buy a chocolate bar");
 }
         */
+       username1();
+       
 // loop
 let total = 0;
 
@@ -59,3 +61,8 @@ console.log (d);
 // was trying to add date and time
 
 //functions
+function username1() {
+    let name = prompt ('what is your name')
+    alert ("hello " + name);
+    return name;
+}
