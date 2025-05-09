@@ -34,6 +34,7 @@ if (money > 4   ) {
 }
         */
 // loop
+// bug in this loop[]
 for
 (let userNumber = parseInt(prompt("Enter a number to add to the total:")));
 let total = 0;
